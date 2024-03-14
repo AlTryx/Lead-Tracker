@@ -1,0 +1,42 @@
+body {
+    min-width:400px;
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+width:100%;
+ padding-left: 10px;
+ padding-right:10px;
+ box-sizing:border-box;
+}
+
+button {   
+background-color: #5f9341;
+color: white;
+font-weight:bold;
+text-shadow: 2px, 2px, black;
+width: 150px;
+font-size: 20px;
+height: 40px;
+margin-bottom: 7px;
+margin-top: 7px;
+}
+
+button:active{
+  top: 3px;
+}
+
+ul {
+    margin-top: 20px;
+list-style: none;
+padding-left:0;
+
+}
+li {
+margin-top:5px;
+}
+li a{
+    color:#5f9341;
+}
