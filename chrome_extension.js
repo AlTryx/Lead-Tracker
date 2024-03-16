@@ -9,7 +9,7 @@ const tabBtn = document.getElementById("tab-btn")
 
 
 if (leadsFromLocalStorage) {
-  myLeads = leadsFromLocalStorage          // ensure-va kogato refreshna stranicata da se zapazqt linkovete(leadovete)
+  myLeads = leadsFromLocalStorage       
   render(myLeads)
 }
 
