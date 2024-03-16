@@ -4,9 +4,14 @@ body {
   margin: 0;
   padding: 10px;
   font-family: Monospace, Helvetica, sans-serif;
+  border-top: 5px solid rgba(255, 111, 67, 0.904);
+  border-left: 5px solid rgba(255, 111, 67, 0.904);
+  border-right: 5px solid rgba(255, 111, 67, 0.904);
+  border-bottom: 5px solid rgba(255, 111, 67, 0.904);
 }
 
 input {
+  border: 2px solid rgba(255, 111, 67, 0.904);
   font-family: Monospace, Helvetica, sans-serif;
   width: 100%;
   padding-left: 10px;
