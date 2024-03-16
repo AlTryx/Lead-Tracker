@@ -1,11 +1,13 @@
 body {
+  background:white;
   min-width: 400px;
   margin: 0;
   padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Monospace, Helvetica, sans-serif;
 }
 
 input {
+  font-family: Monospace, Helvetica, sans-serif;
   width: 100%;
   padding-left: 10px;
   padding-right: 10px;
@@ -13,22 +15,36 @@ input {
 }
 
 button {
-  background: #5f9341;
+  cursor:pointer;
+  
   color: white;
+  border-radius: 0.6em;
   font-weight: bold;
   width: 150px;
   font-size: 20px;
   height: 40px;
-  border: 1px solid #5f9341;
+  border: 1px solid rgba(255, 111, 67, 0.904);
   margin-bottom: 7px;
   margin-top: 7px;
   transition: all 0.2s ease;
+  background: rgba(255, 111, 67, 0.904);
+  &:hover,
+  &:focus {
+    color: #2c3e50;
+    outline: 0;
+  }
 }
 
 #delete-btn {
-  background: white;
-  color: #5f9341;
+  background-color: transparent;
+  color: #2c3e50;
+  &:hover,
+  &:focus {
+    color: rgba(255, 111, 67, 0.904);
+    outline: 0;
+  }
 }
+
 
 #delete-btn:active {
   transform: scale(0.96)
@@ -40,15 +56,26 @@ button:active {
 
 ul {
   margin-top: 20px;
-  list-style: none;
-  padding-left: 0;
+  list-style-type: circle;
+  padding-left: 0.1;
 
 }
 
 li {
+  list-style-type: circle;
   margin-top: 5px;
 }
 
 li a {
-  color: #5f9341;
+  color: rgba(255, 111, 67, 0.904);
+}
+
+.first {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  &:hover {
+    box-shadow: 0 0 40px 40px rgba(255, 111, 67, 0.904) inset;
+  }
+}
+input{
+  background: transparent;
 }
