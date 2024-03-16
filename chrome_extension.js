@@ -9,14 +9,11 @@ const tabBtn = document.getElementById("tab-btn")
 
 
 if (leadsFromLocalStorage) {
-  myLeads = leadsFromLocalStorage          // ensure-va kogato refreshna stranicata da se zapazqt linkovete(leadovete)
+  myLeads = leadsFromLocalStorage       
   render(myLeads)
 }
 
 tabBtn.addEventListener("click", function(){
-  
-  //chrome.tabs.query({active: true, currentWindow: true}, function(tabs){
-  //})
 
   chrome.tabs.query({active: true, currentWindow: true}, function(tabs){
   myLeads.push(tabs[0].url)
