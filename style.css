@@ -21,7 +21,6 @@ input {
 
 button {
   cursor:pointer;
-  
   color: white;
   border-radius: 0.6em;
   font-weight: bold;
@@ -39,6 +38,14 @@ button {
     outline: 0;
   }
 }
+
+.delete-ul {
+  padding: 0;
+  background-color: white;
+  width: auto;
+  height: 28px;
+  border-radius: 0.7em;
+  }
 
 #delete-btn {
   background-color: transparent;
@@ -84,3 +91,4 @@ li a {
 input{
   background: transparent;
 }
+
